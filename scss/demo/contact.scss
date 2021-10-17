@@ -1,0 +1,50 @@
+.contact-section{
+    .group1{
+        .feild{
+            position: relative;
+            input {
+                border:none;
+                border-bottom: 1px solid #aaa;
+                width: 100%;
+                padding-top:1rem;
+                padding-bottom:1rem;
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+            input:focus{
+                border:none;
+                border-bottom: 1px solid #e3252e;
+            }
+            span{
+                position: absolute;
+                width: 60%;
+                transform: translate(-50%, 50%);
+                font-weight: bold;
+            }
+        }
+        .des{
+            font-size: 1.2rem;
+            padding-top: 1rem;
+            font-weight: 500;
+            color:#555;
+
+        }
+    }
+    .group2{
+        input, textarea{
+            font-size: .8rem;
+            padding: 1rem;
+            border-radius: .5rem;
+        }
+        span{
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: #555;
+        }
+        .btndes{
+            line-height: 1;
+        }
+    }
+}
+
+

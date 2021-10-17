@@ -1,0 +1,30 @@
+.hero-section{
+    .hs-text{
+        vertical-align: top;
+
+        #title{
+            padding-top: 5%;
+
+            .hs-subtitle{
+                font-size: 2rem;
+                margin-bottom: 0rem;
+            }
+            .hs-des{
+                margin-top: 1rem;
+                margin-bottom: 0rem;
+            }
+            .site-btn{
+                border-radius: .7rem;
+                background: #e3252e;
+            }
+            #btnwhite{
+                background: #fff;
+                color: red;
+            }
+        }
+    }
+
+    .red {
+        color: #e3252e;
+    }
+}

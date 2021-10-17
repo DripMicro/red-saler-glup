@@ -1,0 +1,26 @@
+.plus-section{
+    padding-bottom: 0;
+    padding-top: 0;
+    .cart{
+        padding-left:2rem;
+        padding-right:2rem;
+        padding-top:5rem;
+        .icons{
+            position: relative;
+            display: block;
+            img{
+                position: absolute;
+                top:50%;
+                transform: translate((-25%, -50%));
+            }
+        }
+        .des{
+            margin-top: 2rem;
+        }
+    }   
+}
+.tab{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+

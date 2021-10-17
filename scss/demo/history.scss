@@ -1,0 +1,36 @@
+.history-section{
+    padding-bottom: 0;
+    i{
+        color: #ffc107
+    }
+    .group1{
+        .gheader{
+            margin-bottom: 2rem;
+        }
+    }
+    .group2{
+        .pic{
+            position: relative;
+        }
+        .picdes{
+            position: absolute;
+            padding:3rem;
+            background-color: #e3252e;
+            bottom:0;
+            border-radius: .7rem;
+        }
+        .des{
+            padding-left: 3rem;
+            .vh3{
+                font-size: 2rem;
+                font-weight: 600;
+            }
+            .gh{
+                margin-top: 2rem;
+            }
+        }
+    }
+    
+}
+
+

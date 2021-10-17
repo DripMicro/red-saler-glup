@@ -1,0 +1,32 @@
+.news-section{
+    padding-top: 0;
+    .red{
+        color: #e3252e;
+    }
+    .grey{
+        color: #777;
+    }
+    .tab {
+        text-align: center;
+        border-bottom: 1px solid #f2f2f2;
+    }
+    .active {
+        border-bottom: 1px solid #e3252e;
+        color:#e3252e;
+    }
+    .cart{
+        margin-top: 1rem;
+    }
+    .info{
+        padding-right: 1rem;
+        margin-top: 1rem;
+        hr{
+            width: 90%;
+        }
+        span{
+            font-size: .8rem;
+        }
+    }
+}
+
+

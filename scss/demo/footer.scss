@@ -1,0 +1,31 @@
+.footer-section{
+    background-color: #151515;
+    .footer-widget ul {
+        list-style: none;
+    }
+    ul{
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-bottom: 1rem;
+        li{
+            margin-bottom: 1rem;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        margin-bottom: 0;
+    }
+
+    .colum1{
+        padding-right: 6rem;
+    }
+    .reserved{
+        color: #b7b7b7;
+        font-size: .9rem;
+    }
+}
+
+

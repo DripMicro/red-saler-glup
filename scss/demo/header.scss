@@ -1,0 +1,98 @@
+.header-section{
+    .site-logo {
+        padding-top: 0rem;
+    }
+    .search {
+        position: relative;
+        display: inline-block;
+        box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+        input {
+            height: 3rem;
+            text-indent: 25px;
+            border: 1px solid #d6d4d4;
+            border-radius: .7rem;
+            width: 100%;
+        }
+        
+        input:focus {
+            box-shadow: none;
+            border: 1px solid #e3252e
+        }
+        
+        button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 140px;
+            background: #e3252e;
+            border-radius: 0.7rem;
+            color:white;
+            i{
+                color: white
+            }
+        }
+    }
+
+    .address{
+        position: absolute;
+        margin-right: 2rem;
+        padding-right: 0;
+        .hf-item{
+            p {
+                margin-bottom: 0rem;
+            }
+        }
+    }
+
+    .icons{
+        display: inline-block;
+        float: right;
+        padding-top:0.5rem;
+        a {
+            position: relative;
+            padding-right: 2rem;
+            .navbar-icon-link-badge {
+                position: absolute;
+                top: -12px;
+                right: 26px;
+                height: 20px;
+                text-align: center;
+                color: #e3252e;
+                font-size: 0.8rem;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .red{
+        color: #fa656c;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    i {
+        color: #e3252e;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1139px) {
+    .address{
+        padding-left: 0.5rem;
+        display: inline-block;
+    }
+}
+@media (min-width: 1140px) {
+    .address{
+        padding-left: 6rem;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .address{
+        display: none;
+    }
+    .search{
+        width: 320px;
+    }
+}

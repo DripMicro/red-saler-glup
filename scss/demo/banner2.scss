@@ -1,0 +1,31 @@
+.banner2-section{
+    .red{
+        color: #e3252e;
+    }
+    .grey{
+        color: #777;
+    }
+    img{
+        width: 100%;
+    }
+    .cart1{
+        display: block;
+        position: relative;
+        .info{
+            position: absolute;
+            top: 50%;
+            transform: translate(0%, -50%);
+            color: white;
+            padding-left: 4rem;
+            padding-right: 2rem;
+            title{
+                font-size: .8rem;
+            }
+            h2{
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,78 @@
+.find-section{
+    .red{
+        color: #e3252e;
+    }
+    .grey{
+        color: #555;
+    }
+    
+    hr{
+        margin-top: 1.5rem;
+    }
+    
+    .group3{
+        margin-top: 1rem;
+        padding: 1rem;
+        .row{
+            background-color: #fafafa;
+            border-radius: 1rem;
+            position: relative;
+            .list{
+                padding-top:2rem;
+                position: relative;
+                .title{
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    padding-bottom: .2rem;
+                }
+                .detail{
+                    font-size: .8rem;
+                    font-family: 'Inter', Fallback, sans-serif;
+                }
+                .price{
+                    padding-top: 1rem;
+                    padding-bottom: .4rem;
+                    .now{
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                    }
+                    .sale{
+                        font-weight: 500;
+                        font-size: .9rem;
+                    }
+                }
+            }
+            
+
+            .indicator{
+                position: absolute;    
+                text-align: end;
+                padding-top: 1rem;
+                padding-right: 1rem;
+                span{
+                    color: white;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-top: .6rem;
+                    padding-bottom: .6rem;
+                    border-radius: .7rem;
+                    font-weight: bold;
+                }
+                .bg-blue{
+                    background-color: #2c3681;
+                }
+                .bg-red{
+                    background-color: #e3252e;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .pic{
+        padding-top: 3rem;
+    }
+}
